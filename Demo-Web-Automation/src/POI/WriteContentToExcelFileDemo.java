@@ -53,7 +53,7 @@ public class WriteContentToExcelFileDemo {
 			cell=row.createCell(1);
 			cell.setCellValue("manager");
 			
-			fout=new FileOutputStream("G:\\EXCEL\\Test-New.xlsx");
+			fout=new FileOutputStream("E:\\Class2\\Test-New.xlsx");
 			wb.write(fout);
 		}catch(Exception e)
 		{
